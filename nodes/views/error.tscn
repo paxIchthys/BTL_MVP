@@ -1,0 +1,24 @@
+[gd_scene load_steps=3 format=3 uid="uid://pl7xg2hg2h22"]
+
+[ext_resource type="Script" uid="uid://bf3knebbwxhn4" path="res://code/src/com/escapinghats/btl/scripts/scenes/perspectives/error/error_node.gd" id="1_2863v"]
+[ext_resource type="Texture2D" uid="uid://bln5pm7bg27ni" path="res://assets/sprites/errors/bg.png" id="1_p1am4"]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_2863v")
+
+[node name="Bg" type="Sprite2D" parent="."]
+position = Vector2(575, 326)
+scale = Vector2(72.75, 41.5)
+texture = ExtResource("1_p1am4")
+
+[node name="Title" type="RichTextLabel" parent="."]
+offset_right = 451.0
+offset_bottom = 31.0
+text = "FATAL ERROR!"
+
+[node name="Description" type="RichTextLabel" parent="."]
+offset_left = 1.0
+offset_top = 27.0
+offset_right = 1151.0
+offset_bottom = 636.0
+text = "ERROR TEXT"

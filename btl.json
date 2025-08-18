@@ -1,0 +1,14 @@
+{
+	"Version": "1.0.0",
+	"PreloadList":{
+		"Assets":[],
+		"Data":[
+			"definitions/characters/characterList.json",
+			"definitions/items/items.json",
+			"definitions/items/itemTypes.json",
+			"logicBlocks/rules.json",
+			"text/en_us/dialogue.json",
+			"text/en_us/labels.json"
+		]
+}
+}

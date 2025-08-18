@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://b1o0ho2ttwofw"]
+
+[ext_resource type="Script" uid="uid://dgwxfaovismeb" path="res://code/src/com/escapinghats/btl/scripts/scenes/stage.gd" id="1_y2hml"]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_y2hml")
