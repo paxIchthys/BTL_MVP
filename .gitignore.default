@@ -25,12 +25,11 @@ assets/**/*.jpg
 assets/**/*.mp3
 assets/**/*.blend
 
-
-
 #Libs - External Libraries kept out of this repo
-libs/
+code/libs/
 
 #Initial Context also kept seperate from source code
 context/
 
+#GIT files to ignore
 .gitignore
